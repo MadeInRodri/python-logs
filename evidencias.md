@@ -27,6 +27,22 @@ La IA puede ser una herramienta muy versátil a la hora de acompañarnos en la c
 
 ## Casos probados
 
+### Evidencia de pruebas
+
+#### `case_valido.log` — archivo bien formado
+
+Contiene tres eventos con severidades reconocidas (`INFO`, `WARNING` y `ERROR`), fechas válidas en los dos formatos permitidos y un mensaje en cada línea.
+
+- **Resultado esperado:** 3 eventos totales, todos válidos; 3 fechas correctas; ninguna severidad inválida, fecha incorrecta ni mensaje faltante.
+- **Resultado obtenido:** coincide con lo esperado. El analizador reportó 3 eventos válidos y 0 inválidos.
+
+#### `case_2.txt` — archivo con errores e inconsistencias
+
+Incluye fechas faltantes o imposibles, niveles de severidad desconocidos o mal formados y un evento sin mensaje.
+
+- **Resultado esperado:** 10 eventos totales; 6 eventos inválidos, contando cada línea defectuosa una sola vez; 3 severidades inválidas, 4 fechas incorrectas y 1 mensaje faltante.
+- **Resultado obtenido:** coincide con lo esperado. El analizador reportó 10 eventos, 6 inválidos, 3 severidades inválidas, 4 fechas incorrectas y 1 mensaje faltante.
+
 ### case_1.txt
 
 ```text
@@ -51,6 +67,34 @@ Severidad inválida: 0
 Validación de eventos
 Fechas correctas : 6
 Fechas incorrectas: 1
+Mensajes faltantes: 0
+==============================================
+```
+
+### case_valido.log
+
+```text
+==============================================
+REPORTE DE LOGS
+==============================================
+Archivo analizado : case_valido.log
+Total de eventos : 3
+Eventos válidos : 3
+Eventos inválidos : 0
+
+---
+
+Niveles de severidad
+Información : 1
+Advertencias : 1
+Errores : 1
+Severidad inválida: 0
+
+---
+
+Validación de eventos
+Fechas correctas : 3
+Fechas incorrectas: 0
 Mensajes faltantes: 0
 ==============================================
 ```

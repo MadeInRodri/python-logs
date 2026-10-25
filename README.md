@@ -73,6 +73,7 @@ Ingresa el número correspondiente al archivo que deseas analizar. El reporte mo
 - `case_1.txt`: contiene logs con niveles de severidad y fechas en el formato `AAAA-MM-DD`.
 - `case_2.txt`: contiene ejemplos de fechas válidas e inválidas y variaciones en los niveles de severidad.
 - `case_3.log`: verifica que el programa también analice archivos `.log`, con fechas válidas e inválidas y distintos niveles de severidad.
+- `case_valido.log`: contiene eventos correctamente formados, con severidades reconocidas, fechas válidas y mensajes.
 
 ## Fuente consultada
 
