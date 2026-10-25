@@ -1,0 +1,10 @@
+[INFO] 2025-01-13 Entrada de log valida
+[INFO] 13/01/2025 Fecha con formato diferente
+[WARNING] Falta la fecha por completo
+[ERROR] 2025-99-99 Fecha con valores imposibles
+[DEBUG] 2025-01-13 Nivel de severidad no contemplado
+2025-01-13 Mensaje sin nivel de severidad
+[INFO] 2025-01-13 
+[WARNING] 2025-01-14      Multiples espacios antes del mensaje
+[error] 2025-01-14 Severidad en minusculas
+[ INFO ] 2025-01-14 Severidad con espacios internos

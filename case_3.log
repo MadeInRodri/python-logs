@@ -1,0 +1,8 @@
+[INFO] 2025-02-01 Servicio iniciado correctamente
+[WARNING] 02/02/2025 Uso de memoria cercano al limite
+[ERROR] 2025-02-30 Fecha inexistente en el calendario
+[INFO] 03-02-2025 Formato de fecha no permitido
+[DEBUG] 2025-02-04 Nivel de severidad no contemplado
+[ERROR] Falta la fecha en esta entrada
+[WARNING] 2025-02-05 Conexion lenta con el servidor
+[INFO] 29/02/2024 Fecha valida en ano bisiesto

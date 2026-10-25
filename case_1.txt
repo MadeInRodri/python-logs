@@ -1,0 +1,7 @@
+[INFO] 2025-01-10 Aplicacion iniciada correctamente
+[INFO] 2025-01-10 Usuario 'admin' inicio sesion
+[WARNING] 2025-01-10 Uso de memoria elevado
+[ERROR] 2025-01-11 Falla de conexion a la base de datos
+[INFO] 2025-01-11 Reintento de conexion exitoso
+[WARNING] Invalid password attempt
+[ERROR] 2025-01-12 Excepcion no manejada en el hilo principal
